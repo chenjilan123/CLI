@@ -1,0 +1,1 @@
+F:\Repository\CLI\sonar\csproj\.sonarqube\out\0
