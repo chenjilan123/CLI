@@ -4,13 +4,34 @@
   "runs": [
     {
       "tool": {
-        "name": "Microsoft (R) Visual C# Compiler",
-        "version": "3.7.0.0",
-        "fileVersion": "3.7.0-2.20277.1 (b6cfbdf2)",
-        "semanticVersion": "3.7.0",
+        "name": "Microsoft(R) Visual C# 编译器",
+        "version": "3.6.0.0",
+        "fileVersion": "3.6.0-4.20251.5 (910223b6)",
+        "semanticVersion": "3.6.0",
         "language": "zh-CN"
       },
       "results": [
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
         {
           "ruleId": "S1128",
           "level": "warning",
@@ -96,27 +117,6 @@
           }
         },
         {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 18,
-                  "endLine": 11,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1128",
           "level": "warning",
           "message": "Remove this unnecessary 'using'.",
@@ -129,27 +129,6 @@
                   "startColumn": 1,
                   "endLine": 5,
                   "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 50,
-                  "endLine": 12,
-                  "endColumn": 57
                 }
               }
             }
@@ -213,6 +192,27 @@
                   "startColumn": 1,
                   "endLine": 3,
                   "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 50,
+                  "endLine": 12,
+                  "endColumn": 57
                 }
               }
             }
