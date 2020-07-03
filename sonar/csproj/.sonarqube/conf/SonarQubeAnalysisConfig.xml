@@ -93,7 +93,9 @@
     <Property Name="sonar.java.collectAnalysisErrors">false</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
     <Property Name="sonar.core.id">C6890F0F-AXMOi-PXYP_z88b_eFSd</Property>
-    <Property Name="sonar.core.startTime">2020/7/2 16:45:48</Property>
+    <Property Name="sonar.core.startTime">2020/7/3 9:50:07</Property>
+    <Property Name="sonar.pdf.username">admin</Property>
+    <Property Name="sonar.pdf.password">admin</Property>
   </ServerSettings>
   <LocalSettings />
   <AnalyzersSettings>
