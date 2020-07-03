@@ -1,0 +1,12 @@
+SonarScanner.MSBuild begin /key:"GWDayun.ChinaTelecomIot" /name:"GWDayun.ChinaTelecomIot" /version:"1.0"
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" /t:rebuild
+
+SonarScanner.MSBuild.exe end
+
+
+
+
+dotnet-sonarscanner  begin /key:"GWDayun.ChinaTelecomIot" /name:"GWDayun.ChinaTelecomIot" /version:"1.0"
+dotnet build
+dotnet sonarscanner end
