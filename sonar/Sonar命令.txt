@@ -10,3 +10,6 @@ SonarScanner.MSBuild.exe end
 dotnet-sonarscanner  begin /key:"GWDayun.ChinaTelecomIot" /name:"GWDayun.ChinaTelecomIot" /version:"1.0"
 dotnet build
 dotnet sonarscanner end
+
+#仅csproj时，如何扫描
+#Single .NET Core project files (csproj or vbproj) could be built and successfully analyzed only if a <ProjectGuid>unique guid</ProjectGuid> element is added in the csproj or vbproj XML. The <ProjectGuid> element is not required if you build a solution (sln) containing that project.

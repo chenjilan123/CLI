@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repository\\CLI\\sonar\\GrpcService\\GrpcService\\GrpcService.csproj": {}
+    "J:\\CLI\\sonar\\csproj\\GrpcService\\GrpcService.csproj": {}
   },
   "projects": {
-    "F:\\Repository\\CLI\\sonar\\GrpcService\\GrpcService\\GrpcService.csproj": {
+    "J:\\CLI\\sonar\\csproj\\GrpcService\\GrpcService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repository\\CLI\\sonar\\GrpcService\\GrpcService\\GrpcService.csproj",
+        "projectUniqueName": "J:\\CLI\\sonar\\csproj\\GrpcService\\GrpcService.csproj",
         "projectName": "GrpcService",
-        "projectPath": "F:\\Repository\\CLI\\sonar\\GrpcService\\GrpcService\\GrpcService.csproj",
-        "packagesPath": "C:\\Users\\GW-001\\.nuget\\packages\\",
-        "outputPath": "F:\\Repository\\CLI\\sonar\\GrpcService\\GrpcService\\obj\\",
+        "projectPath": "J:\\CLI\\sonar\\csproj\\GrpcService\\GrpcService.csproj",
+        "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+        "outputPath": "J:\\CLI\\sonar\\csproj\\GrpcService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\GW-001\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\GW-001\\AppData\\Local\\Esri\\NuGet": {},
-          "http://47.113.94.237:8081/repository/nuget-hosted/": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/5T8Mou6iyx82HSKk8RQjEE1tUH4IySfrlxldv6Z9mdg7cRPgN8/api": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -58,12 +58,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,13 +4,97 @@
   "runs": [
     {
       "tool": {
-        "name": "Microsoft(R) Visual C# 编译器",
-        "version": "3.6.0.0",
-        "fileVersion": "3.6.0-4.20251.5 (910223b6)",
-        "semanticVersion": "3.6.0",
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.7.0.0",
+        "fileVersion": "3.7.0-2.20277.1 (b6cfbdf2)",
+        "semanticVersion": "3.7.0",
         "language": "zh-CN"
       },
       "results": [
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
         {
           "ruleId": "S1118",
           "level": "warning",
@@ -18,7 +102,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///F:/Repository/CLI/sonar/csproj/GrpcService/Program.cs",
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
                 "region": {
                   "startLine": 11,
                   "startColumn": 18,
@@ -33,18 +117,165 @@
           }
         },
         {
-          "ruleId": "S1450",
+          "ruleId": "S1128",
           "level": "warning",
-          "message": "Remove the field '_logger' and declare it as a local variable in the relevant methods.",
+          "message": "Remove this unnecessary 'using'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///F:/Repository/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 50,
                   "endLine": 12,
                   "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Services/GreeterService.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Startup.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Startup.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Startup.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19
                 }
               }
             }
@@ -60,7 +291,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///F:/Repository/CLI/sonar/csproj/GrpcService/Program.cs",
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Program.cs",
                 "region": {
                   "startLine": 13,
                   "startColumn": 28,
@@ -81,7 +312,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///F:/Repository/CLI/sonar/csproj/GrpcService/Startup.cs",
+                "uri": "file:///J:/CLI/sonar/csproj/GrpcService/Startup.cs",
                 "region": {
                   "startLine": 27,
                   "startColumn": 17,
@@ -114,19 +345,38 @@
             ]
           }
         },
-        "S1450": {
-          "id": "S1450",
-          "shortDescription": "Private fields only used as local variables in methods should become local variables",
-          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+        "S1128": {
+          "id": "S1128",
+          "shortDescription": "Unused \"using\" should be removed",
+          "fullDescription": "Although unnecessary using won't change anything to the produced application, removing them:",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1128",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope",
+              "Unnecessary"
             ]
           }
         },
@@ -137,7 +387,7 @@
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4507",
           "properties": {
-            "category": "Critical Security Hotspot",
+            "category": "Minor Security Hotspot",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
