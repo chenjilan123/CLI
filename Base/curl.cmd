@@ -1,0 +1,1 @@
+curl --head --silent baidu.com | grep -i content-length
