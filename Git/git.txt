@@ -1,0 +1,40 @@
+git init
+
+echo hello world > hello.txt
+
+git add hello.txt
+
+git commit
+
+git cat-file -p d040a98
+
+git log --all --graph --decorate
+git log --all --graph --decorate --oneline
+
+git diff HEAD hello.txt
+git checkout hello.txt
+git checkout d040a98fb5d81c3d31a8878722208f2c164c4a92
+
+git branch
+git branch -vv
+
+#!merge
+* c7cb8f1 (HEAD -> dot) Add dog functionality
+* 3d58deb (cat) Add cat funtionality
+* 032d21f (master) Add animal.py
+* 6796154 Add git.txt
+* ab6a619 Add new line to hello.txt
+* 0714986 Add git.txt
+* d040a98 Add hello.txt
+
+#!func
+python animal.py cat
+python animal.py dog
+python animal.py wolf
+
+#!remote
+git remote add <name> <url>
+git remote add origin ../remote
+git push <remote> <local branch>:<remote branch>
+git push origin
+git push origin master:master
