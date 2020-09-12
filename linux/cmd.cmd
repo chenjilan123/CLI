@@ -37,3 +37,50 @@ jack' | sort | uniq -c | sort -nk1,1 | tail -n5 | gnuplot -p -e 'set boxwidth 0.
 #!Data Wrapping
 rustup toolchain list | grep nightly | grep -v 'nightly-84' | grep 2019 | sed 's/-x86.*//' | xargs rustup toolchain uninstall
 ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace gray - | gzip | ssh tsp 'gzip -d | tee copy.png' | feh -
+
+#! debugging & profiling
+#!logs
+cd /var/log
+log show --last 10s 
+logger "Hello Logs"
+log show --last 1m | grep Hello
+#! highlight error
+
+#! ipdb
+npm install ipdb
+python -m ipdb bubble.py
+# list code
+l
+#! Step
+s
+# start debugging
+restart
+# continue
+c
+# print array arr
+p arr
+# print variable j
+p j
+#! Quit
+q
+#! Set break point
+b 6
+c
+p locals()
+s
+
+
+#! gdb: displays low level information for c/c++
+gdb --args sleep 20
+
+sudo strace ls -l > /dev/null
+sudo dtruss ls -l > /dev/null
+
+pyflakes lint.py
+mypy lint.py
+
+#! Profiling
+time curl baidu.com
+#! 跟踪分析器
+#！探查分析器
+python -m cProgile -s tottime grep.py 1000 '^(import|\s*def)[^,]*$' *.py
