@@ -6,3 +6,9 @@ nohup dotnet GWHost1.dll &
 
 # 获取输出
 tail -f nohup.out
+
+#查看任务
+jobs
+#后台运行
+fg %n
+bg %n
