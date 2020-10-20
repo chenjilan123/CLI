@@ -79,8 +79,32 @@ sudo dtruss ls -l > /dev/null
 pyflakes lint.py
 mypy lint.py
 
+#!note
+writegood
+
 #! Profiling
 time curl baidu.com
 #! 跟踪分析器
 #！探查分析器
+#!CPU
 python -m cProgile -s tottime grep.py 1000 '^(import|\s*def)[^,]*$' *.py
+python -m cProgile -s tottime urls.py | tac
+kernprof -l -v urls.py
+#!memory
+python -m memory_profiler mem.py
+sudo perf stat stat stress -c 1
+sudo perf record stress -c 1
+sudo perf report
+
+#!Frame Graph
+#!Call Graph
+#!CPU|Memory|Processes
+#!HTOP
+Stress -c 4
+du -h videos/
+ncdu .
+#!Process using file|port
+lsof | grep ":4444 .LISTEN"
+
+#!Compare
+hyperfine --warmup 3 'fd -e jpg' 'find . -iname "*.jpg"'
