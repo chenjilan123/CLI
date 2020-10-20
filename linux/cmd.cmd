@@ -1,12 +1,32 @@
-后台开启服务：
+#!后台开启服务：
 nohup dotnet AlarmCenterGrpcServiceLibrary.dll > /dev/null 2>&1 &
 nohup dotnet IoTCenterWebApi.dll > /dev/null 2>&1 &
 
-查看进程：
+#!查看进程：
 ps -ef|grep dotnet
 
-关闭进程：
+#!关闭进程：
 kill -9  进程号
+
+#!ss命令
+ss -lntup
+
+#!nc命令
+nc 127.0.0.1 22
+
+#!ssh服务的启动与安装
+
+#!安装
+sudo apt-get install ssh
+#!启动
+service sshd start
+#!配置
+vim /etc/ssh/sshd_config
+
+#!vim修改只读文件
+w !sudo tee %
+q!
+
 
 #!Regex
 echo 'abcabbc' | sed -E 's/(ab|bc)*//g'
@@ -69,7 +89,6 @@ c
 p locals()
 s
 
-
 #! gdb: displays low level information for c/c++
 gdb --args sleep 20
 
@@ -86,6 +105,7 @@ writegood
 time curl baidu.com
 #! 跟踪分析器
 #！探查分析器
+
 #!CPU
 python -m cProgile -s tottime grep.py 1000 '^(import|\s*def)[^,]*$' *.py
 python -m cProgile -s tottime urls.py | tac
@@ -108,3 +128,5 @@ lsof | grep ":4444 .LISTEN"
 
 #!Compare
 hyperfine --warmup 3 'fd -e jpg' 'find . -iname "*.jpg"'
+
+python -m cProgile -s tottime grep.py 1000 '^(import|\s*def)[^,]*$' *.py
