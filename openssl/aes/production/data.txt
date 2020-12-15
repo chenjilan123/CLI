@@ -1,0 +1,1 @@
+{"pid":1,"uuid":"52cc59b0-df70-42ee-bb24-2fcdc59e64ab","parkno":"Sa70d064a","serial":"a70d064a","state":0,"cellid":"4C97353","rsrp":20,"txpow":5,"sinr":-4,"pci":"4CF6","ecl":0,"event_time":"2020-11-02 14:18:43"}
